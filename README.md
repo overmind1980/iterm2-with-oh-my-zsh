@@ -50,7 +50,7 @@ OK，这就是iTerm2初始的样子，下面我们来美化它，让它变得更
 # curl 安装方式
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-
+（这里要注意，如果网络无法响应就用手机热点，就可以上了，感觉是443端口的问题）
 ```bash
 # wget 安装方式
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
@@ -88,6 +88,7 @@ sudo easy_install pip
 安装后再次执行安装powerline的命令即可。
 
 ![ImageInitIterm](https://raw.githubusercontent.com/sirius1024/pubimgs/master/blogs/iterm2/4.png)
+可能会遇到权限不够的问题，就用按照提示给权限就可以。
 
 ### 安装PowerFonts
 
